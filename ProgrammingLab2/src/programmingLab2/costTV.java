@@ -15,6 +15,6 @@ public class costTV {
 		double price=input.nextDouble(); //User will input their original price of their TV
 		double finalPrice = price*salesTax;  //System will calculate final price after including sales tax
 		String priceInTwoDecimalPlaces = String.format("RM%.2f",finalPrice); //To set price in RM and in 2 decimal places
-		System.out.println("The cost of the TV you paid is: "+ priceInTwoDecimalPlaces); //Output final price in RM and two decimal places
+		System.out.println("The cost of the TV you paid with sales tax is: "+ priceInTwoDecimalPlaces); //Output final price in RM and two decimal places
 	}
 }
